@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sejarah Filsuf</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>SEJARAH</h1>
+  </header>
+
+  <main>
+    <main>
+  <!-- Daftar Buku -->
+  <section class="daftar-buku">
+    <h2>Daftar Buku</h2>
+    <table id="tabelBuku">
+      <thead>
+        <tr>
+          <th>Judul</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Albert Camus</td>
+          <td><a href="StoryAlbertCamus.html">Baca</a></td>
+        </tr>
+        <tr>
+          <td>Lao Tzu</td>
+          <td><a href="StoryLaoTzu.html">Baca</a></td>
+        </tr>
+        <tr>
+          <td>Friedrich Nietzsche</td>
+          <td><a href="StoryFriedrich.html">Baca</a></td>
+        </tr>
+        <tr>
+          <td>Seneca</td>
+          <td><a href="StorySeneca.html">Baca</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Tambah Buku Baru -->
+  <section class="tambah-buku">
+    <h3>Tambah Buku Baru</h3>
+    <input type="text" placeholder="Judul Buku">
+    <input type="text" placeholder="Penulis">
+    <input type="text" placeholder="Tahun">
+    <button>Tambah</button>
+  </section>
+</main>
+
+    <!-- Form Tambah Buku -->
+    <section class="form-buku">
+      <h2>Tambah Buku Baru</h2>
+      <form id="formTambah">
+        <input type="text" id="judul" placeholder="Judul Buku" required>
+        <input type="text" id="penulis" placeholder="Penulis" required>
+        <input type="number" id="tahun" placeholder="Tahun" required>
+        <button type="submit">Tambah</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
